@@ -1,11 +1,8 @@
 {
-    "name": "create-wetpl",
-    "version": "0.0.8",
-    "description": "A Cli Tool for weTpl",
+    "name": "util",
+    "version": "1.0.0",
+    "description": "util template",
     "type": "module",
-    "bin": {
-        "create-wetpl": "lib/index.cjs"
-    },
     "scripts": {
         "prepare": "husky install",
         "prebuild": "rimraf lib",
@@ -14,10 +11,7 @@
         "doc:serve": "docsify-cli serve ./docs",
         "lint": "tsc --noEmit && eslint --ext .ts src"
     },
-    "keywords": [
-        "create-wetpl",
-        "wetpl"
-    ],
+    "keywords": [],
     "author": "Hyhello",
     "license": "MIT",
     "homepage": "https://hyhello.github.io/create-wetpl/",
