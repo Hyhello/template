@@ -4,10 +4,9 @@ import { Message } from 'element-ui';
 import { store as _store } from '@hyhello/utils';
 import { ACCESS_TOKEN } from '@/common/constants';
 
-const BASE_URL = 'http://8.148.6.250:48089/app-api';
-
-const http = new axios({
-    baseURL: BASE_URL
+const http = axios.create({
+    baseURL: process.env.VUE_APP_API_URL,
+    timeout: 5000
 });
 
 http.interceptors.request.use(

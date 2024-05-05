@@ -6,6 +6,12 @@ const routes = [
         meta: {
             title: '登录'
         }
+    },
+    {
+        path: '/',
+        name: '/',
+        component: () => import('@/views/main/index.vue'),
+        children: []
     }
 ];
 

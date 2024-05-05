@@ -12,7 +12,6 @@ export default {
         state.isLogin = false;
         store.remove(ACCESS_TOKEN, true);
         store.remove(USER_INFO, true);
-        this.commit('SET_PAGE_CUR', '');
     },
     LOGIN_IN(state, res = {}) {
         state.isLogin = true;
