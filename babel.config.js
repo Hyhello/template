@@ -13,7 +13,9 @@ module.exports = {
             'import',
             {
                 libraryName: 'element-ui',
-                styleLibarryDirectory: 'lib/theme-chalk'
+                customStyleName: (name) => {
+                    return `element-ui/lib/theme-chalk/${name}.css`;
+                }
             },
             'element-ui'
         ]
