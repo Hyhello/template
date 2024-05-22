@@ -1,16 +1,9 @@
 <template>
-    <div id="app">
-        <nav>
-            <router-link to="/">Home</router-link> |
-            <router-link to="/about">About</router-link>
-        </nav>
-        <router-view></router-view>
-    </div>
+    <router-view></router-view>
 </template>
 
 <style lang="scss">
 @import '~normalize.css/normalize.css';
-// @import '~element-ui/lib/theme-chalk/index.css';
 
 #app {
     font-family: 'Avenir, Helvetica, Arial, sans-serif';

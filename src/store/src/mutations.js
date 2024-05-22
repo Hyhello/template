@@ -1,8 +1,3 @@
-/**
- * 作者：yeshengqiang
- * 时间：2021-05-31
- * 描述：mutaions
- */
 import { store } from '@hyhello/utils';
 import { ACCESS_TOKEN, USER_INFO } from '@/common/constants';
 
