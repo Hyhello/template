@@ -1,0 +1,11 @@
+// 公共部分
+$namespace: 'app-';
+
+[class*='#{$namespace}'],
+[class*='#{$namespace}']::after,
+[class*='#{$namespace}']::before,
+[class^='#{$namespace}'],
+[class^='#{$namespace}']::after,
+[class^='#{$namespace}']::before {
+    box-sizing: border-box;
+}

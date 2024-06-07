@@ -18,9 +18,9 @@ http.interceptors.request.use(
                 ...conf.params
             };
         }
+
         // 设置头部
         conf.header.Authorization = 'Bearer ' + _store.get(ACCESS_TOKEN, true);
-        conf.header['Tenant-Id'] = 1;
 
         return conf;
     },

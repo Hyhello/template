@@ -4,6 +4,7 @@
 
 <style lang="scss">
 @import '~normalize.css/normalize.css';
+@import 'src/assets/styles/common.scss';
 
 #app {
     font-family: 'Avenir, Helvetica, Arial, sans-serif';
